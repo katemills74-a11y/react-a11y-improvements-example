@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import React from "react";
-import styles from "../temp/Styles";
+import styles from "./Styles";
 import { handleHomeClick, handleAboutClick, handleContactClick, handleContinueClick } from "./constants";
 import reactLogo from "./assets/react.svg";
 
