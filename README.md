@@ -212,6 +212,10 @@ Accessibility ensures that all users — including those using assistive technol
 This project demonstrates your commitment to building inclusive, user‑friendly interfaces that work for everyone.
 
 ---
+## Live Demo
+
+View the project here:
+https://katemills74-a11y.github.io/react-a11y-improvements-example/
 
 ## 📬 Want Something Similar?
 
