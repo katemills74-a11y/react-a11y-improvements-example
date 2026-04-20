@@ -136,7 +136,7 @@ Example Markdown:
 ![After ARIA](./screenshots/after/afterAria.png)
 
 ### Before Keyboard Focus
-![Before Keyboard](./screenshots/before/beforeButton.png)
+![Before Keyboard](./screenshots/before/beforeKeyboard.png)
 
 ### After Keyboard Focus
 ![After Keyboard](./screenshots/after/afterKeyboard.png)
