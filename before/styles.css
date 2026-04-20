@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+  font-family: Arial;
+}
+
+.header {
+  background: #ddd;
+  padding: 5px;
+}
+
+.nav p {
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+.content img {
+  width: 150px;
+  height: 150px;
+}
+
+.fake-button {
+  width: 120px;
+  padding: 10px;
+  background: #999;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.fake-button:hover {
+  background: #777;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
