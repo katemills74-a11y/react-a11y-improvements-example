@@ -1,15 +1,44 @@
-# React Accessibility Improvements Example
+⭐ How to Run the Project
 
-This project demonstrates how to improve accessibility in a small React component. 
-The “before” version contains common accessibility issues such as missing labels, 
-poor heading structure, low contrast, and non-semantic HTML. The “after” version 
-applies WCAG-aligned fixes including semantic elements, ARIA attributes, keyboard 
-navigation support, and improved focus states.
+bash
 
-## Structure
-- before/ – original inaccessible component
-- after/ – improved accessible version
+npm install
+npm run dev
 
-## Technologies
-React, JavaScript, HTML, CSS, VS Code, GitHub, Chrome DevTools
+Then open:
 
+Code
+
+http://localhost:5173
+
+⭐ Technologies Used
+
+- React
+
+- Vite
+
+- JavaScript (ES6+)
+
+- ARIA attributes
+
+- Semantic HTML
+
+- Inline style objects via Styles.js
+
+⭐ What This Project Demonstrates
+
+This project shows your ability to:
+
+- Identify accessibility issues
+
+- Refactor UI components for clarity and usability
+
+- Apply ARIA attributes correctly
+
+- Improve keyboard navigation
+
+- Use React hooks (useState) for interactive states
+
+- Organise styles in a modular, scalable way
+
+- Produce clean, readable, maintainable code
