@@ -1,4 +1,4 @@
-### react-a11y-improvements-example
+# react-a11y-improvements-example
 
 A small React project demonstrating practical accessibility (A11y) improvements.
 This example shows how to refactor a simple UI to make it more usable, more semantic, and more inclusive — while keeping the code clean, modular, and easy to maintain.
@@ -27,7 +27,7 @@ It demonstrates how small, intentional changes can significantly improve the use
 
 ## 📝 Before vs After Summary
 
-# Before
+### Before
 
     Buttons had no ARIA labels
 
@@ -41,7 +41,7 @@ It demonstrates how small, intentional changes can significantly improve the use
 
     Code was harder to read and maintain
 
-# After
+### After
 
     ARIA labels added for screen‑reader clarity
 
@@ -59,27 +59,27 @@ It demonstrates how small, intentional changes can significantly improve the use
 
 ## ⭐ Key Accessibility Improvements
 
-# 1. ARIA Labels
+### 1. ARIA Labels
 
 Buttons now include descriptive aria-label attributes where needed, improving screen reader clarity.
 
-# 2. Semantic HTML
+### 2. Semantic HTML
 
 Navigation, content, and interactive elements use appropriate semantic tags.
 
-# 3. Keyboard Interactions
+### 3. Keyboard Interactions
 
 Buttons respond to keyboard focus and hover states using React useState.
 
-# 4. Visible Focus Styles
+### 4. Visible Focus Styles
 
 Custom focus outlines ensure keyboard users can see where they are on the page.
 
-# 5. Modular Styles
+### 5. Modular Styles
 
 All inline styles were moved into a dedicated Styles.js file for clarity and reusability.
 
-# 6. Clean Component Structure
+### 6. Clean Component Structure
 
 Components were refactored for readability, maintainability, and accessibility.
 
@@ -111,46 +111,46 @@ react-a11y-improvements-example/
 
 Example Markdown:
 
-# Before UI
+### Before UI
 ![Before screenshot](./screenshots/before/before.png)
 
-# After UI
+### After UI
 ![After screenshot](./screenshots/after/after.png)
 
-# Before Semantics are added
+### Before Semantics are added
 ![Before Semantics](./screenshots/before/nonSemantic.png)
 
-# After Semantics are added
+### After Semantics are added
 ![After Semantics](./screenshots/after/Semantic.png)
 
-# Before Buttons
+### Before Buttons
 ![Before Buttons](./screenshots/before/beforeButton.png)
 
-# After Buttons
+### After Buttons
 ![After Buttons](./screenshots/after/afterButton.png)
 
-# Before ARIA
+### Before ARIA
 ![Before ARIA](./screenshots/before/beforeAria.png)
 
-# After ARIA
+### After ARIA
 ![After ARIA](./screenshots/after/afterAria.png)
 
-# Before Keyboard Focus
+### Before Keyboard Focus
 ![Before Keyboard](./screenshots/before/beforeButton.png)
 
-# After Keyboard Focus
+### After Keyboard Focus
 ![After Keyboard](./screenshots/after/afterKeyboard.png)
 
-# Before Image Handling
+### Before Image Handling
 ![Before Img](./screenshots/before/beforeImg.png)
 
-# After Image Handling
+### After Image Handling
 ![After Img](./screenshots/after/afterImg.png)
 
-# Before Constants
+### Before Constants
 ![Before Conts](./screenshots/before/beforeConstants.png)
 
-# After Constants
+### After Constants
 ![After Conts](./screenshots/after/afterConstants.png)
 ![After Conts1](./screenshots/after/afterConstants1.png)
 
@@ -158,15 +158,15 @@ Example Markdown:
 
 ## ▶️ How to Run the Project
 
-# Install dependencies:
+### Install dependencies:
 
 npm install
 
-# Start the development server:
+### Start the development server:
 
 npm run dev
 
-# Then open:
+### Then open:
 
 http://localhost:5173
 
