@@ -29,31 +29,31 @@ It demonstrates how small, intentional changes can significantly improve the use
 
 ### Before
 
-    Buttons had no ARIA labels
+- Buttons had no ARIA labels
 
-    No keyboard interaction states
+- No keyboard interaction states
 
-    No semantic grouping
+- No semantic grouping
 
-    Inline styles cluttered the component
+- Inline styles cluttered the component
 
-    Hover/focus behaviour was inconsistent
+- Hover/focus behaviour was inconsistent
 
-    Code was harder to read and maintain
+- Code was harder to read and maintain
 
 ### After
 
-    ARIA labels added for screen‑reader clarity
+- ARIA labels added for screen‑reader clarity
 
-    Keyboard‑friendly interactions using useState
+- Keyboard‑friendly interactions using useState
 
-    Semantic HTML structure
+- Semantic HTML structure
 
-    Styles moved into a dedicated Styles.js file
+- Styles moved into a dedicated Styles.js file
 
-    Clean, readable component structure
+- Clean, readable component structure
 
-    Clear visual states for interaction
+- Clear visual states for interaction
 
 ---    
 
@@ -158,15 +158,15 @@ Example Markdown:
 
 ## ▶️ How to Run the Project
 
-### Install dependencies:
+Install dependencies:
 
 npm install
 
-### Start the development server:
+Start the development server:
 
 npm run dev
 
-### Then open:
+Then open:
 
 http://localhost:5173
 
@@ -174,35 +174,35 @@ http://localhost:5173
 
 ## 🛠 Tech Stack
 
- - React
+- React
 
- - Vite
+- Vite
 
- - JavaScript (ES6+)
+- JavaScript (ES6+)
 
- - ARIA attributes
+- ARIA attributes
 
- - Semantic HTML
+- Semantic HTML
 
- - Modular inline style objects
+- Modular inline style objects
 
  ---
 
 ## 💡 What This Project Demonstrates
 
-Identify and resolve accessibility issues using WCAG‑aligned best practices
+- Identify and resolve accessibility issues using WCAG‑aligned best practices
 
-Refactor UI components to improve clarity, structure, and user experience
+- Refactor UI components to improve clarity, structure, and user experience
 
-Apply ARIA attributes effectively to enhance screen‑reader support
+- Apply ARIA attributes effectively to enhance screen‑reader support
 
-Ensure full keyboard accessibility, including focus management and interaction states
+- Ensure full keyboard accessibility, including focus management and interaction states
 
-Use React hooks (useState) to manage interactive and accessible UI behaviour
+- Use React hooks (useState) to manage interactive and accessible UI behaviour
 
-Organise styles into a modular, scalable architecture using a dedicated Styles.js file
+- Organise styles into a modular, scalable architecture using a dedicated Styles.js file
 
-Write clean, maintainable, and semantic React code that is easy to extend and audit
+- Write clean, maintainable, and semantic React code that is easy to extend and audit
 
  ---
 
