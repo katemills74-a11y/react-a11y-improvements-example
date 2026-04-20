@@ -19,6 +19,7 @@ export default function A11y() {
       <nav style={styles.nav}>
         <button
           onClick={handleHomeClick}
+          aria-label="Home"
           onMouseEnter={() => setHoveredButton("home")}
           onMouseLeave={() => setHoveredButton(null)}
           style={hoveredButton === "home" ? { ...styles.button, ...styles.buttonHover } : styles.button}
@@ -28,6 +29,7 @@ export default function A11y() {
         
         <button 
           onClick={handleAboutClick}
+          aria-label="About section"
           onMouseEnter={() => setHoveredButton("about")}
           onMouseLeave={() => setHoveredButton(null)}
           style={hoveredButton === "about" ? { ...styles.button, ...styles.buttonHover } : styles.button}     
@@ -36,7 +38,8 @@ export default function A11y() {
         </button>
 
         <button 
-          onClick={handleContactClick}      
+          onClick={handleContactClick}
+          aria-label="Contact information"   
           onMouseEnter={() => setHoveredButton("contact")}
           onMouseLeave={() => setHoveredButton(null)}
           style={hoveredButton === "contact" ? { ...styles.button, ...styles.buttonHover } : styles.button}          
@@ -64,6 +67,7 @@ export default function A11y() {
 
         <button
           onClick={handleContinueClick}
+          aria-label="Continue to next step"
           onMouseEnter={() => setHoveredButton("continue")}
           onMouseLeave={() => setHoveredButton(null)}
           style={hoveredButton === "continue" ? { ...styles.button, ...styles.buttonHover } : styles.button}
