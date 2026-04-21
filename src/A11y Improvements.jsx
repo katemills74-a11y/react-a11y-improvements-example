@@ -7,7 +7,7 @@ import { handleHomeClick, handleAboutClick, handleContactClick, handleContinueCl
 import reactLogo from "./assets/react.svg";
 
 export default function A11y() {
-  const [hoveredButton, setHoveredButton] = useState(null);
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <main style={styles.container}>
@@ -19,30 +19,27 @@ export default function A11y() {
       <nav style={styles.nav}>
         <button
           onClick={handleHomeClick}
-          aria-label="Home"
-          onMouseEnter={() => setHoveredButton("home")}
-          onMouseLeave={() => setHoveredButton(null)}
-          style={hoveredButton === "home" ? { ...styles.button, ...styles.buttonHover } : styles.button}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          style={isHovered ? {...styles.button, ...styles.buttonHover} : styles.button}
         >
             Home
         </button>
         
         <button 
           onClick={handleAboutClick}
-          aria-label="About section"
-          onMouseEnter={() => setHoveredButton("about")}
-          onMouseLeave={() => setHoveredButton(null)}
-          style={hoveredButton === "about" ? { ...styles.button, ...styles.buttonHover } : styles.button}     
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          style={isHovered ? {...styles.button, ...styles.buttonHover} : styles.button}     
         >
             About
         </button>
 
         <button 
-          onClick={handleContactClick}
-          aria-label="Contact information"   
-          onMouseEnter={() => setHoveredButton("contact")}
-          onMouseLeave={() => setHoveredButton(null)}
-          style={hoveredButton === "contact" ? { ...styles.button, ...styles.buttonHover } : styles.button}          
+          onClick={handleContactClick}      
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          style={isHovered ? {...styles.button, ...styles.buttonHover} : styles.button}          
         >
             Contact
         </button>
@@ -67,10 +64,9 @@ export default function A11y() {
 
         <button
           onClick={handleContinueClick}
-          aria-label="Continue to next step"
-          onMouseEnter={() => setHoveredButton("continue")}
-          onMouseLeave={() => setHoveredButton(null)}
-          style={hoveredButton === "continue" ? { ...styles.button, ...styles.buttonHover } : styles.button}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          style={isHovered ? {...styles.button, ...styles.buttonHover} : styles.button}
         >
           Continue
         </button>
