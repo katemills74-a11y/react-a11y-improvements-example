@@ -87,6 +87,7 @@ Components were refactored for readability, maintainability, and accessibility.
 
 ## 📁 Project Structure
 
+```
 react-a11y-improvements-example/
 │
 ├── src/
@@ -100,6 +101,7 @@ react-a11y-improvements-example/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ---
 
