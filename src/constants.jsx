@@ -1,17 +1,17 @@
 // src/constants.jsx
 
 export const handleHomeClick = () => {
-  alert("Home clicked");
-};
+  alert('Home clicked')
+}
 
 export const handleAboutClick = () => {
-  alert("About clicked");
-};
+  alert('About clicked')
+}
 
 export const handleContactClick = () => {
-  alert("Contact clicked");
-};
+  alert('Contact clicked')
+}
 
 export const handleContinueClick = () => {
-  alert("Continue clicked");
-};
+  alert('Continue clicked')
+}
